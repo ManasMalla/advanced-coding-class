@@ -13,6 +13,15 @@ void push(struct Node** top, int m) {
     *top = k;
 }
 
+void display(struct Node* top){
+	while(top->ptr != NULL) {
+		printf("%c->", top->value);
+		top = top->ptr;
+	}
+	printf("%c", top->value);
+}
+
+
 int main() {
     struct Node* head = NULL;
     int n;
@@ -28,3 +37,4 @@ int main() {
     return 0;
 
 }
+
