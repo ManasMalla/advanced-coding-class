@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,4 +26,5 @@ int main() {
     }
     printf("The top element is: %d\n", head->value);
     return 0;
+
 }
